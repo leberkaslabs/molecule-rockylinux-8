@@ -2,6 +2,9 @@
 
 [![Container Release (Rocky Linux 8)](https://github.com/leberkaslabs/molecule-rockylinux-8/actions/workflows/build-push-action.yml/badge.svg)](https://github.com/leberkaslabs/molecule-rockylinux-8/actions/workflows/build-push-action.yml)
 
+> [!IMPORTANT]  
+> This Docker image is still being built, but unfortunately cannot be used with newer Ansible versions (2.17+). For this reason, I will no longer use it in my Ansible code tests.
+
 This repository is used to build Rocky Linux 8 Docker images for Ansible [Molecule](https://ansible.readthedocs.io/projects/molecule/).
 
 ```bash
